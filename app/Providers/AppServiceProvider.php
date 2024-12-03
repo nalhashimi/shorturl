@@ -2,8 +2,6 @@
 
 namespace App\Providers;
 
-use App\Events\ShortUrlCreated;
-use App\Listeners\SendShortUrlNotification;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
